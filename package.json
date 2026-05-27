@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "express": "~4.16.1",
-    "hbs": "~4.0.4"
+    "hbs": "~4.0.4",
+    "mongoose": "^9.6.2"
   }
 }
