@@ -1,4 +1,5 @@
-require('../models/travlr');
+require('../../app_api/models/travlr');
+
 const mongoose = require('mongoose');
 const Trip = mongoose.model('trips');
 

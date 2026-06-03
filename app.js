@@ -4,8 +4,9 @@ var hbs = require('hbs');
 
 var indexRouter = require('./app_server/routes/index');
 var travelRouter = require('./app_server/routes/travel');
+var apiRouter = require('./app_api/routes/index');
 
-require('./app_server/models/db');
+require('./app_api/models/db');
 
 var app = express();
 
@@ -19,5 +20,5 @@ app.use(express.static(path.join(__dirname)));
 
 app.use('/', indexRouter);
 app.use('/travel', travelRouter);
-
+app.use('/api', apiRouter);
 module.exports = app;
