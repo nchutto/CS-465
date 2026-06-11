@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "~4.16.1",
     "hbs": "~4.0.4",
     "mongoose": "^9.6.2"
